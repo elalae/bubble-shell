@@ -24,6 +24,9 @@ fn main(){
             let mut parts = command.trim().split_whitespace();
             let command = parts.next().unwrap();
             let args = parts;
+            
+            
+            
 
             match command {
                 "cd" => {
@@ -75,4 +78,5 @@ fn main(){
         }
 
     }
+    
 }
